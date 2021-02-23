@@ -10,7 +10,7 @@ pub fn build(b: *Builder) void {
 
         exe.linkSystemLibrary("c");
         exe.linkSystemLibrary("GL");
-        exe.linkSystemLibrary("glfw3");
+        exe.linkSystemLibrary("glfw");
 
         const run_cmd = exe.run();
 
